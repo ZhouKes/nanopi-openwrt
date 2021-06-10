@@ -3,7 +3,7 @@ name: r1s(H3) Lean版openwrt
 on:
   push:
     branches: 
-      - master
+      - fwrt
     paths:
       - '.github/workflows/r1s_lean_h3.yml'
   schedule:
