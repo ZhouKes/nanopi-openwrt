@@ -18,9 +18,9 @@ jobs:
     steps:
       
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@fwrt
         with:
-          ref: master
+          ref: fwrt
 
       - name: Initialization Environment
         env:
