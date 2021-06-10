@@ -18,7 +18,7 @@ jobs:
     steps:
       
       - name: Checkout
-        uses: actions/checkout@fwrt
+        uses: actions/checkout@9eb5f8e
         with:
           ref: fwrt
 
